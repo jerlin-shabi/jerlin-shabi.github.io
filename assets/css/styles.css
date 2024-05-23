@@ -41,6 +41,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -297,10 +298,10 @@ img {
   width: 85%;
 }
 .skills__js {
-  width: 47%;
+  width: 75%;
 }
 .skills__ux {
-  width: 50%;
+  width: 75%;
 }
 .skills__img {
   border-radius: 0.5rem;
