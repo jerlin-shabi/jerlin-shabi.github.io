@@ -381,6 +381,12 @@ img {
 .footer__social-icon:hover {
   color: var(--first-color);
 }
+.footer__icon{
+  font-size: 2em;
+  margin-right: 40px;
+  margin-left: 40px;
+  color: var(--first-color);
+}
 
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
