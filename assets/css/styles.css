@@ -383,8 +383,8 @@ img {
 }
 .footer__icon{
   font-size: 2em;
-  margin-right: 40px;
-  margin-left: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
   color: var(--first-color);
 }
 
