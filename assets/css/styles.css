@@ -343,6 +343,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     margin-bottom: 1rem;
+    font:var(--body-font);
 }
 .contact__button {
     width: 100%;
