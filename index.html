@@ -38,9 +38,7 @@
                     </ul>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
+                
             </nav>
         </header>
 
@@ -209,18 +207,13 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const navToggle = document.getElementById('nav-toggle');
-                const navMenu = document.getElementById('nav-menu');
-    
-                if (navToggle && navMenu) {
-                    navToggle.addEventListener('click', () => {
-                        navMenu.classList.toggle('show');
-                    });
-                }
-            });
-        </script>
+
+        <!--<script>
+        document.getElementById('nav-toggle').addEventListener('click', function() {
+        document.getElementById('nav-menu').classList.toggle('show');
+        });
+    </script>-->
+  
     </body>
 </html>
 
