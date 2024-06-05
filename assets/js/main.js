@@ -54,5 +54,48 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
-sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
+sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
+
+
+
+//animation
+
+var tl = gsap.timeline();
+tl.from(".letter", { duration: 1, opacity: 0, y: "random(-200, 200)", stagger: 0.15 });
+tl.to(".letter", { duration: 1, rotation: 360, stagger: 0.15 }, "-=3.5");
+
+$(".letter").bind("webkitAnimationEnd mozAnimationEnd animationend", function () {
+    $(this).removeClass("rubberBand");
+});
+
+$(".letter").hover(function () {
+    $(this).addClass("rubberBand");
+});
+
+
+if (!window.matchMedia("(max-width: 1500px)").matches) {
+    gsap.from(".sal", {
+        scrollTrigger: {
+            trigger: ".sal",
+            start: "top bottom"
+        },
+        opacity: 0,
+        x: -200,
+        duration: 1,
+        ease: "power3",
+        stagger: 0.25
+    });
+
+    gsap.from(".sar", {
+        scrollTrigger: {
+            trigger: ".sar",
+            start: "top bottom"
+        },
+        opacity: 0,
+        x: 200,
+        duration: 1,
+        ease: "power3",
+        stagger: 0.25
+    });
+}
 
