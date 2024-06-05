@@ -622,7 +622,7 @@ img {
    }
 
  }
- @media screen and (min-width: 320px)and (max-width: 768px) {
+ @media screen and (min-width: 320px)and (max-width: 768px) {}
     .service-list {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
