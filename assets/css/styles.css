@@ -605,7 +605,7 @@ img {
           animation-iteration-count: 1;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .highlighted-name {
