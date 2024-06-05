@@ -523,3 +523,16 @@ img{
         }
     }
 }
+
+@media screen and (min-width: 344px){
+    .home{
+        row-gap: 2rem;
+
+        &__img{
+            width: 200px;
+        }
+    }
+    .letter{
+        font-size: 1.5rem;
+    }
+}
