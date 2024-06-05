@@ -220,13 +220,111 @@ img {
   bottom: 0;
   width: 260px;
 }
+
 .home__blob {
   fill: var(--first-color);
 }
+
 .home__blob-img {
   width: 398px;
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .home__img {
+    /* Adjust styles as needed */
+  }
+  .home__blob {
+    /* Adjust styles.home__blob-img {
+  width: 398px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .home__img {
+    width: 200px; /* Adjust width */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    width: 300px; /* Adjust width */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .home__img {
+    width: 250px; /* Adjust width */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    width: 350px; /* Adjust width */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home__img {
+    width: 260px; /* Adjust width */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    width: 398px; /* Adjust width */
+  }
+} @media screen and (min-width: 360px) and (max-width: 360px) and (min-height: 800px) and (max-height: 800px) {
+  /* Insert your CSS rules here */
+}@media screen and (min-width: 360px) and (max-width: 360px) and (min-height: 800px) and (max-height: 800px) {
+  /* Insert your CSS rules here */
+}
+  }
+  .home__blob-img {
+    /* Adjust styles as needed */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .home__img {
+    /* Adjust styles as needed */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    /* Adjust styles as needed */
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .home__img {
+    /* Adjust styles as needed */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    /* Adjust styles as needed */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .home__img {
+    /* Adjust styles as needed */
+  }
+  .home__blob {
+    /* Adjust styles as needed */
+  }
+  .home__blob-img {
+    /* Adjust styles as needed */
+  }
+}
 /*BUTTONS*/
 .button {
   display: inline-block;
@@ -694,4 +792,23 @@ img {
       line-height: 1.6;
     }
   }
+
+  @media screen and (min-width: 360px) and (max-width: 360px) and (min-height: 800px) and (max-height: 800px) {
+    .letter {
+      font-size: 2em;
+    }
+    .home__blob {
+      transform: translateY(-90px); /* Adjust this value as needed */
+    }
+  }
+
+  @media screen and (min-width: 360px) and (max-width: 360px) and (min-height: 680px) and (max-height: 780px) {
+    .letter {
+      font-size: 2em;
+    }
+    .home__blob {
+      transform: translateY(-90px); /* Adjust this value as needed */
+    }
+  }
+  
 
