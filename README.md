@@ -8,5 +8,5 @@
 
 
 
-![preview img](assets/img/preview.png)
+![preview img](assets/img/preview.jpeg)
 
