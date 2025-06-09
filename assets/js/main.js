@@ -116,3 +116,4 @@ gsap.from(".sar", {
     ease: "power3",
     stagger: 0.25
 });
+// When the top of the trigger hits the bottom of the viewport
